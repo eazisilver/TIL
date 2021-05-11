@@ -6,6 +6,8 @@
 #### 2. github의 초록잔디🌱를 무성하게 키워보자!
 
 ## Categories
-#### JavaScript
-- [HTML, CSS, JavaScript](HTML, CSS/HTML, CSS, JavaScript.md)
+#### HTML, CSS
+- [HTML, CSS, JavaScript](https://github.com/eazisilver/TIL/blob/83e601355ea6cebbae9d6479a1b8096acd185911/HTML,%20CSS/HTML,%20CSS,%20JavaScript.md)
 - DOM 이란?
+
+#### JavaScript
