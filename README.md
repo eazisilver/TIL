@@ -8,6 +8,6 @@
 ## Categories
 #### HTML, CSS
 - [HTML, CSS, JavaScript](https://github.com/eazisilver/TIL/blob/83e601355ea6cebbae9d6479a1b8096acd185911/HTML,%20CSS/HTML,%20CSS,%20JavaScript.md)
-- DOM 이란?
+- [DOM 이란?](https://github.com/eazisilver/TIL/blob/233f77b6acea123457e006a39628db58d8df9f3f/HTML,%20CSS/DOM.md)
 
 #### JavaScript
