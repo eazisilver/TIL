@@ -2,13 +2,24 @@
 # CSS
 ### CSS 가 하는 일은 HTML 태그를 가리키는 일 Selector 
 
+## 📌 Categories
+- [Cascading Meaning of CSS](Cascading-Meaning-of-CSS)
+- [Block](Block)
+- [Inline](Inline)
+- [block을 inline으로 바꾸기](block을-inline으로-바꾸기)
+- [Position](Position)
+- [Pseudo selector](Pseudo-selector)
+- [Combinator](Combinator)
+- [States](States)
+- [Color System](Color-System)
+- [Variable](Variable)
 
 ## 📑 Cascading Meaning of CSS
 브라우저가 CSS코드를 읽을 때, 위에 있는 코드부터 순서대로 읽는다는 의미.  
 즉, 맨 마지막에 있는 코드가 적용
 
 
-## 📑 Block
+## 📑Block
 ### block 
 - 요소 옆에 다른 요소가 올 수 없음. (Box 개념)
 - 대부분의 box들은 block
@@ -19,7 +30,7 @@
   - padding : box의 border(경계)로부터 안쪽에 있는 공간
   - border  : box의 경계
 
-## 📑 Inline
+## 📑Inline
 ### inline
 - 하나의 요소 옆에 다른 요소 올 수 있다. 즉 같은 줄에 위치할 수 있다.
 - inline 요소들을 외워놓는게 편함.
@@ -54,7 +65,7 @@ flexbox 사용규칙
  
  > flexbox 개념 잡기 좋은 게임 사이트  https://flexboxfroggy.com/#ko
  
-## 📑 position
+## 📑 Position
 ### fixed
 - 초기 위치에 고정시켜줌. 스크롤해도 항상 제자리
 - top, left, right, bottom 중 하나라도 수정했을 때 초기 위치가 무시되고 지정한 위치에 자리잡음.
@@ -119,6 +130,6 @@ focus되는 children이 있으면 작동
 : 'a(alpha)'는 투명도
   0(투명)~1(불투명) 사이의 값으로 조절할 수 있습니다.
 
-### variable (custom property)
+## 📑 Variable (custom property)
 --변수명  
 var(--변수명)
