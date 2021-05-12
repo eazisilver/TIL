@@ -3,7 +3,7 @@
 ### CSS 가 하는 일은 HTML 태그를 가리키는 일 Selector 
 
 ## 📌 Categories
-- [Cascading Meaning of CSS](#cascading-meaning-of-css)
+- [Cascading Meaning of CSS](#📑-cascading-meaning-of-css)
 - [Block](#block)
 - [Inline](#inline)
 - [block을 inline으로 바꾸기](#block을-inline으로-바꾸기)
