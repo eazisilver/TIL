@@ -3,23 +3,23 @@
 ### CSS 가 하는 일은 HTML 태그를 가리키는 일 Selector 
 
 ## 📌 Categories
-- [Cascading Meaning of CSS](Cascading-Meaning-of-CSS)
-- [Block](Block)
-- [Inline](Inline)
-- [block을 inline으로 바꾸기](block을-inline으로-바꾸기)
-- [Position](Position)
-- [Pseudo selector](Pseudo-selector)
-- [Combinator](Combinator)
-- [States](States)
-- [Color System](Color-System)
-- [Variable](Variable)
+- [Cascading Meaning of CSS](#Cascading-Meaning-of-CSS)
+- [Block](#Block)
+- [Inline](#Inline)
+- [block을 inline으로 바꾸기](#block을-inline으로-바꾸기)
+- [Position](#Position)
+- [Pseudo selector](#Pseudo-selector)
+- [Combinator](#Combinator)
+- [States](#States)
+- [Color System](#Color-System)
+- [Variable](#Variable)
 
 ## 📑 Cascading Meaning of CSS
 브라우저가 CSS코드를 읽을 때, 위에 있는 코드부터 순서대로 읽는다는 의미.  
 즉, 맨 마지막에 있는 코드가 적용
 
 
-## 📑Block
+## 📑 Block
 ### block 
 - 요소 옆에 다른 요소가 올 수 없음. (Box 개념)
 - 대부분의 box들은 block
@@ -30,7 +30,7 @@
   - padding : box의 border(경계)로부터 안쪽에 있는 공간
   - border  : box의 경계
 
-## 📑Inline
+## 📑 Inline
 ### inline
 - 하나의 요소 옆에 다른 요소 올 수 있다. 즉 같은 줄에 위치할 수 있다.
 - inline 요소들을 외워놓는게 편함.
