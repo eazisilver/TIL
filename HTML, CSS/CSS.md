@@ -51,7 +51,9 @@ flexbox 사용규칙
   * flex-direction  : main axis와 cross axis의 default 값을 바꿀 수 있다. (default row)  
   * flex-wrap       : wrap/nowrap  
                       wrap은 block이 겹치지 않게 해줌.  
-          
+ 
+ > flexbox 개념 잡기 좋은 게임 사이트  https://flexboxfroggy.com/#ko
+ 
 ## 📑 position
 ### fixed
 - 초기 위치에 고정시켜줌. 스크롤해도 항상 제자리
