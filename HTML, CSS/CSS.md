@@ -3,16 +3,16 @@
 ### CSS 가 하는 일은 HTML 태그를 가리키는 일 Selector 
 
 ## 📌 Categories
-- [Cascading Meaning of CSS](#📑-cascading-meaning-of-css)
-- [Block](#block)
-- [Inline](#inline)
-- [block을 inline으로 바꾸기](#block을-inline으로-바꾸기)
-- [Position](#position)
-- [Pseudo selector](#pseudo-selector)
-- [Combinator](#combinator)
-- [States](#states)
-- [Color System](#color-system)
-- [Variable](#variable)
+- [Cascading Meaning of CSS](#-cascading-meaning-of-css)
+- [Block](#-block)
+- [Inline](#-inline)
+- [block을 inline으로 바꾸기](#-block을-inline으로-바꾸기)
+- [Position](#-position)
+- [Pseudo selector](#-pseudo-selector)
+- [Combinator](#-combinator)
+- [States](#-states)
+- [Color System](#-color-system)
+- [Variable](#-variable)
 
 ## 📑 Cascading Meaning of CSS
 브라우저가 CSS코드를 읽을 때, 위에 있는 코드부터 순서대로 읽는다는 의미.  
