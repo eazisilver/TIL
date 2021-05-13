@@ -32,32 +32,38 @@
 
 ### 애니메이션 생성
 
-`@keyframes 애니메이션\*이름 {
-from {
-transform: rotateY(0);
+```
+@keyframes 애니메이션_이름 {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(180deg) translateX(100px);
+  }
 }
-to {
-transform: rotateY(180deg) translateX(100px);
-}
-}`
+```
 
 ### 애니메이션 사용
 
-animation: 애니메이션\*이름 5s ease-in-out infinite(무한);
+```
+animation: 애니메이션_이름 5s ease-in-out infinite(무한);
+```
 
 ### 애니메이션을 원래 위치로 돌아가게 하는 방법
 
-`@keyframes superSexyCoinFlip {
-0% {
-transform: rotateY(0);
+```
+@keyframes superSexyCoinFlip {
+  0% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(180deg) translateY(-100px);
+  }
+  100% {
+    transform: rotateY(0) translateY(0px);
+  }
 }
-50% {
-transform: rotateY(180deg) translateY(-100px);
-}
-100% {
-transform: rotateY(0) translateY(0px);
-}
-}`
+```
 0, 25, 50, 100 등 여러 단계로 나눌 수 있다
 
 # Media query
