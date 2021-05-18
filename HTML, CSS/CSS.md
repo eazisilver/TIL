@@ -6,7 +6,7 @@
 - [Cascading Meaning of CSS](#-cascading-meaning-of-css)
 - [Block](#-block)
 - [Inline](#-inline)
-- [block을 inline으로 바꾸기](#-block을-inline으로-바꾸기)
+- [block을 inline으로 바꾸기(flex)](#-block을-inline으로-바꾸기)
 - [Position](#-position)
 - [Pseudo selector](#-pseudo-selector)
 - [Combinator](#-combinator)
@@ -58,8 +58,9 @@ flexbox 사용규칙
    2) justify-content : main axis에서 작용 (default 수평)
    3) align-items     : cross axis에서 작용 (default 수직)  
   * flex-direction  : main axis와 cross axis의 default 값을 바꿀 수 있다. (default row)  
-  * flex-wrap       : wrap/nowrap  
-                      wrap은 block이 겹치지 않게 해줌.  
+  * flex-wrap       : flex-wrap은 flex의 하위 요소들이 flex를 선언한 영역을 벗어날 경우, 강제로 한 줄로 배치할 지 행을 나눠서 배치할 지 결정하는 속성.  
+                      `wrap` flex를 선언한 영역을 벗어날 경우 행을 나눠서 배치.  
+                      `nowrap` 은 default값으로 강제로 한 줄로 배치.
  
  > flexbox 개념 잡기 좋은 게임 사이트  https://flexboxfroggy.com/#ko
  
@@ -70,11 +71,13 @@ flexbox 사용규칙
 ### relative
 - element를 조금 움직이고 싶을 때, 처음 위치를 기준으로 움직이다.
 ### absolute
+- static, relative와 다르게 일반적인 문서 흐름에서 제외
 - 가장 가까운 relative 부모를 기준으로 이동, 없으면 body가 부모
 
 ## 📑 Pseudo selector
 - 좀 더 세부적으로 엘리먼트를 선택해주는 것
 - css에서만 선택하면 되니깐 html 코드를 고칠 필요가 없음. so cool!  
+- `n-child(n)` 형제들 사이에서 n번째 요소를 선택할 수 있는 의사 선택자.
 - 사용 예시
   * span:nth-child(1){}  
   * span:first-child{}  
