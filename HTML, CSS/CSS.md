@@ -11,8 +11,9 @@
 - [Pseudo selector](#-pseudo-selector)
 - [Combinator](#-combinator)
 - [States](#-states)
+- [box-sizing](#-box-sizing)
 - [Color System](#-color-system)
-- [Variable](#-variable)
+- [Variable](#-variable-(custom-property))
 
 ## 📑 Cascading Meaning of CSS
 브라우저가 CSS코드를 읽을 때, 위에 있는 코드부터 순서대로 읽는다는 의미.  
@@ -120,6 +121,17 @@ element가 focused된 상태
 ### focus-within  
 focus되는 children이 있으면 작동
 
+## 📑 box-sizing
+### `box-sizing: border-box` 의 사용 예
+CSS에서 200px크기의 box에 50px padding을 넣을 때,
+```
+width: 200px;
+padding: 50px; 
+```
+위와 같이 입력하면 CSS에서는 200px의 box width를 유지하려 하므로 총 크기 250px (w:200, p:50) 의 box를 가지게 된다.   
+이때 `box-sizing: border-box`를 입력하게 되면 padding을 입력해도 box사이즈를 신경쓰지 않는다는 의미가 되어  
+처음에 원했던 padding 50, 150 box를 가지게 된다.
+
 
 ## 📑 Color System
 1) hex code
@@ -134,3 +146,5 @@ focus되는 children이 있으면 작동
 ## 📑 Variable (custom property)
 --변수명  
 var(--변수명)
+
+
