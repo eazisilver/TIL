@@ -85,6 +85,10 @@ animation: 애니메이션_이름 5s ease-in-out infinite(무한);
 ### `visibility:hidden`
 - 실제로 html을 없애는 건 아니고 아래 레이어를 클릭할 수 있도록 안보이게 해주는 효과.
 
+### 애니메이션을 호출할 때 `will-change`
+- will-change는 애니메이션이 좀 더 부드럽게 동작할 수 있게 한다. → 브라우저에게 어떤 것이 변할 것인지 예고해주는 것
+- will-change는 그래픽 카드를 이용해서 애니메이션을 가속화 한다.
+
 # Media query
 
 오직 CSS만을 이용해서 스크린의 사이즈를 알 수 있는 방법  
