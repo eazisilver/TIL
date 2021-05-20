@@ -78,6 +78,12 @@ animation: 애니메이션_이름 5s ease-in-out infinite(무한);
 - animation이 멈췄다가 다시 동작하게 하려면, animation이 동작하는 시간에 공백을 만들어준다.
 - 예를 들어 1s 동안 animation을 진행한다면, 0.5s(50%)에 이미 동작을 완료하고 1s(100%)에는 완료된 동작을 유지(50%와 동일한 내용)하는 코드를 작성하는 방식.
 
+### animation `forwards`
+- `animation: hideSplashScreen 1s ease-in-out forwards`
+- keyframe의 마지막 속성 값 유지
+
+### `visibility:hidden`
+- 실제로 html을 없애는 건 아니고 아래 레이어를 클릭할 수 있도록 안보이게 해주는 효과.
 
 # Media query
 
