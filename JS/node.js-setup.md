@@ -1,20 +1,22 @@
-# javaScript
+# Node.js prject Setup!
+
+## javaScript
 - 브라우저에 내장되어 있음.
 
-# node.js
+## node.js
 - Javascript 런타임
 - 브라우저 밖에서 돌아가는 JavaScript
 - JS를 브라우저 밖으로 가지고 나와서 유저가 사용할 수 있게 하는 것.
 - 이를 통해 js로 서버도 만들고 웹 스크래퍼도 만들 수 있음( 가능성의 확장, 모바일 앱 등을 만들 수도 있음)
 
-# npm
+## npm
 - JavaScript 언어를 위한 패키지 매니저
 - nodeJS와 상호작용 할 수 있도록 해줌.
 
-# express
+## express
 - Node.js를 위한 빠르고 개방적인 간결한 웹 프레임워크
 
-# json
+## json
 - 프로그래머가 파일에 정보를 저장하기 위해 만든 방식 중 하나.
 - NodeJS인 경우 파일의 이름이` package.json` 으로 해야함.
 - 프로젝트를 동작시킬 때 필요한 모듈들의 정보를 담고 있다.
@@ -33,7 +35,7 @@
   - 패키지들을 안전하게 관리해준다.
   - 패키지가 수정됐는지 해시값으로 체크해줌.
 
-# Babel
+## Babel
 - javaScript compiler
 - 최신 자바스크립트를 `nodeJS`가 이해할 수 있는 javaScript로 바꿔준다.  
   ➡ nodeJS의 버전에 상관없이 최신 자바스크립트를 사용할 수 있게 된다!
