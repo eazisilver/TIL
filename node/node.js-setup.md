@@ -1,4 +1,4 @@
-# Node.js prject Setup!
+# Node.js project Setup!
 
 ## javaScript
 
