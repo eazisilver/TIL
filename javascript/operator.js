@@ -32,3 +32,16 @@ const ellie3 = ellie1;
 console.log(ellie1 == ellie2); // false
 console.log(ellie1 === ellie2); // false
 console.log(ellie1 === ellie3); // true
+
+// false : 0, -0, '', null, undefined, NaN
+// true  : 1, -1, 'hello', [] 등 값이 들어있으면 true (배열은 object이기 때문에 true)
+let num = 6;
+if (num) {
+  console.log('true');
+}
+// num이 false면 뒤 구문이 실행안되고
+// num이 true면 뒤 구문이 실행된다.
+num && console.log(num);
+
+let obj;
+obj && console.log(obj.name); // obj.name을 바로 접근하면 에러발생함으로 앞에서 null인 경우는 뒤구문을 실행안하도록 함.
