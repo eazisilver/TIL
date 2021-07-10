@@ -21,10 +21,13 @@ function delay(ms) {
 async function getApple() {
   await delay(2000);
   //   throw 'error';
+  console.log('사과🍎');
+
   return '🍎';
 }
 async function getBanana() {
   await delay(1000);
+  console.log('바나나🍌');
   return '🍌';
 }
 
@@ -39,8 +42,8 @@ async function pickFruits() {
   //   });
 
   // 2. 직렬
-  //   const apple = await getApple();
-  //   const banana = await getBanana();
+  // const apple = await getApple();
+  // const banana = await getBanana();
 
   // 3. 병렬
   const applePromise = getApple();
