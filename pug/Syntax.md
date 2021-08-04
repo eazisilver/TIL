@@ -13,7 +13,7 @@ app.set('views', process.cwd() + '/src/views');
 ```
 
 # Including Templates
-`footer`처럼 모든 화면에 반복해서 들어가는 부분은 따로 관리한다.
+- partials : 여러 페이지에 동일한 내용을 넣을 때
 ``` pug
 // footer.pug
 
@@ -71,4 +71,53 @@ ul
     else    
         li 
           a(href="/login") Login
+```
+# Iteration
+elements의 list를 보여주는 것
+``` javascript
+const items = [1,2,3,4,5,6,7,8,9]
+```
+``` pug
+each item in items 
+            li=item
+        else 
+            li Sorry, nothing found
+```
+## Mixins
+- 똑똑한 partials. partials과 유사
+- 데이터를 받을 수 있는 일종의 미리 만들어진 HTML block이라고 볼 수 있다.
+``` javascript  
+const videos = [
+    {
+      title: 'Video #1',
+      rating: 5,
+      comments: 2,
+      createdAt: '2 minutes ago',
+      views: 59,
+      id: 1,
+    },
+  ];
+```
+``` pug
+// home.pug
+
+extends base.pug
+include mixins/video
+
+each item in videos 
+    +video(item)
+else 
+    li Sorry, nothing found
+```
+``` pug
+// mixins/video.pug
+
+mixin video(video)
+    div
+        h4=video.title
+        ul
+            li #{video.rating} / 5.
+            li #{video.comments} comments.
+            li Posted #{video.createdAt}.
+            li #{video.views} views.
 ```
