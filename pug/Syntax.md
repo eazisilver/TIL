@@ -56,8 +56,11 @@ block content
 ```
 # Variables
 - #{title}
-- #{title}을 다른 태그에서 사용할 때
-  - ex) `h1=title` or `h1 #{title} | Welcome`
+- #{title} 사용  
+  - 다른 text와 같이 쓸 때  
+    `h1 #{title} | Welcome`
+  - 변수만 단독으로 쓸 때  
+    `h1=title`
 # Conditionals
 ### if else 
 ``` pug
