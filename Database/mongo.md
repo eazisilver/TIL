@@ -1,6 +1,10 @@
-### mongoDB start/stop
+## start/stop
 ```
 sudo service mongodb start
-t
+
 sudo service mongodb stop
+```
+## status
+```
+sudo service mongodb status
 ```
