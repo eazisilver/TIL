@@ -49,6 +49,11 @@ mongoose.connect('mongodb://127.0.0.1:27017/wetube', {
   useFindAndModify: false,
 });
 ```
+# findByIdAndDelete
+- findByIdAndRemove오 약간의 차이가 있는데 특별한 이유가 없는 한 delete를 사용할 것  
+  💡 mongodb는 롤백이 안되서 remove를 사용하면 되돌릴 수 없기 때문에 delete를 쓰라고 권장 
+- findByIdAndDelete === findOneAndDelete({_id:id})
+
 # middleware
 https://mongoosejs.com/docs/middleware.html
 - model이 생성되기 전에 만들어야 한다
