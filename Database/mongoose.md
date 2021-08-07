@@ -72,3 +72,17 @@ videoSchema.pre('save', async function () {
 const Video = mongoose.model('Video', videoSchema);
 export default Video;
 ```
+
+# search query - regex
+https://docs.mongodb.com/manual/reference/operator/query/regex/
+```javascript
+// search
+    videos = await Video.find({
+      title: {
+        $regex: new RegExp(`^${keyword}`, 'i'), // keyword로 시작하는 문자 검색
+        $regex: new RegExp(`${keyword}$`, 'i'), // keyword로 끝나는 문자 검색
+        $regex: new RegExp(keyword, 'i'), // 대소문자 구분 X
+      },
+    });
+```
+
