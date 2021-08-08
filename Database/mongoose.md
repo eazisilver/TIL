@@ -16,6 +16,8 @@ import mongoose from 'mongoose';
 mongoose.connect('mongodb://127.0.0.1:27017/wetube', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  useFindAndModify: false, // findByIdAndUpdate() 를 사용하면 해당 프로퍼티를 추가하라는 경고가 뜬다.
+  useCreateIndex: true, // Model 스키마에서 unique: true 옵션을 사용한 경우 해당 프로퍼티를 추가하라는 경고가 뜬다.
 });
 ```
 ``` javascript
