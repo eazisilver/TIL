@@ -40,6 +40,8 @@ db.once('open', handleOpen);
 # exists({_id : id})
 # findByIdAndUpdate({ ... })
 - property 추가 : `useFindAndModify: false`
+- return 값: 업데이트되기 전의 값
+  - `new: ture` 를 설정해주면 업데이트된 데이터를 반환
 ``` javascript
 // db.js
 
